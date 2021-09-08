@@ -1,0 +1,14 @@
+{
+  "extends": ["plugin:vue/recommended", "standard"],
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "no-console": ["error", { "allow": ["warn"] }]
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
+}
